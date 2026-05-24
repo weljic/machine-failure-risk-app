@@ -1,3 +1,8 @@
+import sys
+import os
+
+# Ensure parent directory is in Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import streamlit as st
 from model import predict_failure_probability, classify_failure
 

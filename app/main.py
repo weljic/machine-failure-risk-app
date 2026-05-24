@@ -1,5 +1,5 @@
 import streamlit as st
-from app.model import predict_failure_probability, classify_failure
+from model import predict_failure_probability, classify_failure
 
 st.set_page_config(page_title="Machine Failure Risk Estimator")
 
